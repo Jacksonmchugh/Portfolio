@@ -3,7 +3,7 @@ import React from "react"
     return (
         <div className="home">
             <p className="home_header">Welcome to my portfolio.</p>
-            <p className="home_page_projects"> 
+            <p className="home_page"> 
             Please take a look at some of my projects. 
             
             I have a some full stack apps and some front end projects.
@@ -15,7 +15,7 @@ import React from "react"
             
             
             
-            <p className="home_page_contact">If you would like to reach out to me please take a look at my contact page for my LinkedIn, email, and github. 
+            <p className="home_page">If you would like to reach out to me please take a look at my contact page for my LinkedIn, email, and github. 
             </p>
         </div>
     )
