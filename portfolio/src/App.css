@@ -1,11 +1,19 @@
 .App{
-  background-color: #f63838;
-  background-position: 100%;
-  background-repeat:repeat;
+ 
+  
+}
+.page {
+  background-color: #b3b3b3;
+  height: 88vh;
+  padding-top: 2vh;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+  background-color: #b3b3b3;
 }
 
 
@@ -93,8 +101,9 @@ nav {
   background-color: rgb(252, 251, 252);
   align-content: center;
 }
-.home_page {
- 
+.page_home {
+  color: rgb(2, 2, 2);
+  font-size: 35px;
  
 }
 .home_header {
@@ -118,6 +127,20 @@ nav {
   background-color: rgb(252, 251, 252);
   align-content: center;
 }
+.project_list:hover {
+  background-color:#ff0000;
+  border: 2px #eb4d01 solid;
+  border-radius: 15px;
+
+  color: black;
+  cursor: pointer;
+}
+.page {
+  background-color: #b3b3b3;
+  height: 88vh;
+  padding-top: 2vh;
+}
+
 .contact{
   width: 66%;
   max-height: 1000px;
@@ -130,3 +153,16 @@ nav {
   background-color: rgb(252, 251, 252);
   align-content: center;
 }
+.about{
+  width: 66%;
+  max-height: 1000px;
+  margin: 2% 15% 2% 15%;
+  border: 3px solid #003049;
+  border-radius: 8px;
+  box-shadow: 6px 0 15px #2a2a2a;
+  background-color: transparent;
+  object-fit:contain;
+  background-color: rgb(252, 251, 252);
+  align-content: center;
+}
+
